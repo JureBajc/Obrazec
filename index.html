@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+	<head>
+	<title>Registracija</title>
+	<link rel="stylesheet" href="style.css">
+	
+	
+	</head>
+	<body>
+	<div class ="regform"><h1>Kontaktni obrazec</h1></div>
+	<div class ="main">
+		<form>
+		<div id ="name">
+		<h2 class="name">Ime</h2>
+		<input class="firstname" type="rext" name="first_name"><br>
+		<label class="firstlabel">Ime</label>
+		<input class="lastname" type="text" name="last_name">
+		<label class="lastlabel">Priimek</label>
+	</div>
+		
+	<h2 class="name">Podjetje</h2>
+	<input class="company" type="text" name="company">
+	
+	<h2 class="name">Gmail</h2>
+	<input class="email" type="text" name="email">
+		
+	<h2 class="name">Telefon</h2>
+	<input class="number" type="text" name="phone">
+	<label class="phone-number">Telefonska Številka</label>
+	
+	<h2 class="name">V kaj si zaniman?</h2>
+	<select class="option" name="subject">
+	<option disabled="diasbled" selected="selected">--Izberi</option>
+	<option>Java</option>
+	<option>CSS</option>
+	<option>HTML</option>
+	</select>
+	
+	<h2 id="student">Si že kdaj programiral?</h2>
+	<label class="radio">
+	<input type="radio" checked="checked" name="radio">
+	<span class="checkmark"></span>
+	Da
+	</label>
+	
+	<label class="radio">
+	<input type="radio" name="radio">
+	<span class="checkmark"></span>
+	Ne
+	</label>
+	
+	<button type="submit">Registriraj</button>
+
+	</form>
+</div>
+</body>
+</html>
